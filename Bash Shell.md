@@ -21,7 +21,7 @@
 
 # 二、shell? 命令解释器
 
-shell 命令
+### shell 命令
 
 |系统级| 登录的时候会执行|
 |----------------:|----------------:|
@@ -30,13 +30,12 @@ shell 命令
 ||~/.bashrc |        
 |/etc/bashrc|/etc/bashrc| 
 
-用户级
 
-|~/.bash_profile  |  离开shell会执行
+| 用户级|  离开shell会执行
 |----------------:|----------------:|
-|~/.bashrc        |  /etc/bashrc|  
-|~/.bash_history  |  ~/.bashrc |
-|~/.bash_logout||
+|~/.bash_profile |/etc/bashrc|  
+|~/.bashrc |~/.bashrc |
+|~/.bash_history|~/.bash_logout|
 
 # 三、GUN/bash shell特点
 1. 命令和文件自动补齐

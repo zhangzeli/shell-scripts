@@ -20,29 +20,23 @@
 6. 企业项目
 
 # 二、shell? 命令解释器
+
 shell 命令
 
-
-
-系统级             登录的时候会执行
-
-/etc/profile         /etc/profile
-
-                     ~/.bash_profile
-
-                     ~/.bashrc         
-
-/etc/bashrc          /etc/bashrc  
+|系统级| 登录的时候会执行|
+|----------------:|----------------:|
+|/etc/profile|/etc/profile|
+|| ~/.bash_profile|
+||~/.bashrc |        
+|/etc/bashrc|/etc/bashrc| 
 
 用户级
 
-~/.bash_profile    离开shell会执行
-
-~/.bashrc           /etc/bashrc  
-
-~/.bash_history     ~/.bashrc 
-
-~/.bash_logout
+|~/.bash_profile  |  离开shell会执行
+|----------------:|----------------:|
+|~/.bashrc        |  /etc/bashrc|  
+|~/.bash_history  |  ~/.bashrc |
+|~/.bash_logout||
 
 # 三、GUN/bash shell特点
 1. 命令和文件自动补齐

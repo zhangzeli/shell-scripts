@@ -41,3 +41,18 @@ tip:通常修改系统配置文件如 /etc/profile 的path等变量后，使之�
 ### 调试脚本
 >sh -n  仅调试syntax error  
 >sh -vx  以调试的方式执行，查询整个执行过程  
+
+###  a 
+
+```shell
+read -p "Please input a username: " user 
+
+if id $user &> /dev/null;then
+    echo  -e "\e[1;31 user $user is created . [0m"
+else
+    useradd $user
+    if [ $? -eq 0 ];then
+        echo "$user is created"
+    fi 
+fi
+```
